@@ -1,0 +1,50 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-heading {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+.hero-name {
+  font-size: 3.5rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+  font-family: "Ubuntu";
+}
+.sub-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  font-family: "Ubuntu";
+}
+.contact {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.social-links {
+  display: flex;
+  align-items: center;
+}
+.social-link {
+  margin: 0 1rem;
+}
+.social-link i {
+  font-size: 1.5rem;
+  color: #111;
+}
+.social-link:hover i {
+  color: #2d63ef;
+}
